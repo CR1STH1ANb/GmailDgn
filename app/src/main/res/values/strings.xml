@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gmail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragment_vacío">Fragment vacío</string>
+</resources>

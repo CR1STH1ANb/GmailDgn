@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/principal"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/social"
+            android:title="Social"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/prom"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/notify"
+            android:title="Notificaciones"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/foro"
+            android:title="Foros"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="TODAS LAS ETIQUETAS">
+
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/destacado"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/post"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/importan"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/sendi"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/sendipro"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/sendsal"
+                android:title="Bandeja de salida"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/borrador"
+                android:title="Borradores"/>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/todos"
+                android:title="Todos"/>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/spami"
+                android:title="Spam"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/papelera"
+                android:title="Papelera"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader4"
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_11"
+                android:icon="@drawable/configuracion"
+                android:title="Configuración"/>
+            <item
+                android:id="@+id/menu_opcion_12"
+                android:icon="@drawable/help"
+                android:title="Ayuda y comentarios"/>
+
+        </menu>
+    </item>
+
+</menu>

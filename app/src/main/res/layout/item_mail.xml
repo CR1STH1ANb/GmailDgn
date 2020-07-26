@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="150px"
+            android:layout_marginLeft="30px"
+            android:layout_height="150px"
+            android:src="@android:drawable/sym_def_app_icon"
+            app:civ_border_color="#C3E1DEDE"
+            app:civ_border_width="1dp"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50px"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tagmailja" />
+
+            <TextView
+                android:id="@+id/lblNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mensaje"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lblAsunto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Unidad"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/lblMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mensaje de prueba cualquier cosa"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="2dp">
+
+        <TextView
+            android:id="@+id/lblhora"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="3:10" />
+
+        <ImageView
+            android:id="@+id/imageStar"
+            android:layout_width="50px"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/starimg" />
+    </LinearLayout>
+
+</LinearLayout>
