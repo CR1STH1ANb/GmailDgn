@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements
         navView.setNavigationItemSelectedListener(this);
 
         recyclerview=(RecyclerView)findViewById(R.id.rcvLista);
-        recyclerview.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
+
 
 
         recyclerview.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
